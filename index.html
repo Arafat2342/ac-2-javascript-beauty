@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>external javascript</title>
+    <script src="server.js"></script>
+    <style>
+        h1{background-image: linear-gradient( to right,red,blue,pink);width: fit-content;background-clip: text;color: transparent;}
+        button{
+              background-color:rgb(0, 128, 255);
+              border: none;
+              border-radius: 8px;
+        }
+        button:hover{
+            box-shadow: 0 0  5px gray, 0 0  5px gray;
+        }
+    </style>
+</head>
+<body>
+    <h1>Find the area of a squre where a = 5</h1>
+    <button onclick="squre_area()" >Click here to find the area</button>
+    <p id="area"></p>
+</body>
+</html>
